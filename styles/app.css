@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ffffff;
+  font-family: Helvetica;
+
+}
+
+header {
+
+}
 nav {
   overflow: hidden;
 }
@@ -18,57 +27,75 @@ nav ul li {
 .octodex {
   overflow: hidden;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   padding-left: 0;
 }
 
 .octodex li {
   margin: 0 auto;
   width: 32%;
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
+
 
 .octocat {
   float: left;
-  overflow: hidden;
-  margin: 5px auto;
-  list-style-type: none;
-
-}
-
-a {
-  float: left;
   width: auto;
+  list-style-type: none;
   margin: 0 auto;
+  overflow: hidden;
+
 }
 
 .octocat img {
   border: 1px solid #efefef;
   margin: 0 auto;
-  width: 225px;
-}
-
-.authors img {
-  width: 20px;
-}
-
-footer {
-  float: left;
-  overflow: hidden;
-  margin: 0 auto;
   width: 100%;
 }
 
-.octonumber {
-  float: left;
-}
-cite {
-  float: left;
+footer  {
+  float:left;
+  font-size: .7em;
+  margin: 0 auto;
   overflow: hidden;
+  text-align: right;
+  width: 100%;
 }
+
+.triangle-down {
+  float: right;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #000;
+  margin-top: -1px;
+  margin-right: 10px;
+
+
+}
+
+.octonumber {
+  margin: 10px auto;
+  padding-left: 0;
+  padding-right: 0;
+  float: left;
+}
+
+cite {
+  float: right;
+  margin: 10px auto;
+}
+
 
 .authors {
   float: right;
   list-style: none;
+  margin: 0;
+}
+
+.authors img {
+  float: right;
+  width: 30px;
 }
