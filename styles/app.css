@@ -16,14 +16,26 @@ nav {
 }
 
 nav ul {
-  float: right;
+  float: left;
   list-style: none;
 }
 
 nav ul li {
+  background-color: #bfbfbf;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
   float: left;
+  margin: 0 15px 0 15px;
+  padding: 5px 10px;
 }
 
+nav a:link {
+  color: #000;
+  text-decoration: none;
+
+}
 .octodex {
   overflow: hidden;
   margin: 0 auto;
@@ -43,7 +55,7 @@ nav ul li {
   float: left;
   width: auto;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0 auto -5px auto;
   overflow: hidden;
 
 }
@@ -74,8 +86,8 @@ footer  {
   border-top: 10px solid #eee;
   margin-top: -1px;
   margin-right: 10px;
-
-
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
 .octonumber:before {
@@ -91,10 +103,13 @@ footer  {
 }
 
 cite {
-  color: #000;
+  color: #a9a9a9;
   float: right;
-  margin: 10px auto;
+  font-family: Arial;
+  margin: 16px -35px 5px 0;
   font-style: normal;
+  font-weight: bold;
+  text-align: right;
   text-decoration: none;
 }
 
@@ -112,7 +127,7 @@ cite a:visited {
 .authors {
   float: right;
   list-style: none;
-  margin: 0;
+  margin: -5px auto 0 -25px;
 }
 
 .authors img {
