@@ -33,7 +33,7 @@ nav ul li {
 
 .octodex li {
   margin: 0 auto;
-  width: 32%;
+  width: 33%;
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -49,12 +49,13 @@ nav ul li {
 }
 
 .octocat img {
-  border: 1px solid #efefef;
+  border: 1px solid #eee;
   margin: 0 auto;
   width: 100%;
 }
 
 footer  {
+  border-bottom: 1px solid #eee;
   float:left;
   font-size: .7em;
   margin: 0 auto;
@@ -67,16 +68,22 @@ footer  {
   float: right;
   width: 0;
   height: 0;
+  border-color: #eee;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #000;
+  border-top: 10px solid #eee;
   margin-top: -1px;
   margin-right: 10px;
 
 
 }
 
+.octonumber:before {
+  content: "#";
+}
+
 .octonumber {
+  color: #ccc;
   margin: 10px auto;
   padding-left: 0;
   padding-right: 0;
@@ -84,8 +91,21 @@ footer  {
 }
 
 cite {
+  color: #000;
   float: right;
   margin: 10px auto;
+  font-style: normal;
+  text-decoration: none;
+}
+
+cite a:link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+cite a:visited {
+  color: #000;
 }
 
 
@@ -96,6 +116,7 @@ cite {
 }
 
 .authors img {
+  border-radius: 5px;
   float: right;
   width: 30px;
 }
